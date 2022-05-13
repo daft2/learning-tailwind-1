@@ -1,5 +1,5 @@
 module.exports = {
-  content: [],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -13,8 +13,8 @@ module.exports = {
         'input': '#2a2a35',
       },
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif']
-      },
+        'poppins': ["'Poppins'", 'sans-serif']
+      }
     },
   },
 }
